@@ -1,0 +1,9 @@
+numpy
+matplotlib
+gdal==3.3.2
+pandas
+xarray
+rasterio
+rioxarray
+jupyter
+netcdf4==1.6.2
