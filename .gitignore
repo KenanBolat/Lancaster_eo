@@ -14,7 +14,6 @@ __pycache__/
 .idea/
 .idea/*
 *.pdf
-*.nc
 
 
 # Distribution / packaging
