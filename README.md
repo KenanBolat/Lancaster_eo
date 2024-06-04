@@ -8,7 +8,6 @@ This repository is being formed to demonstrate the solution to the geopsatial ta
     - Jupyter solution:
         - Local
         - Via Docker
-    - AWS Geospatial Method
 
 ## Requirements
 
@@ -66,13 +65,3 @@ From the settings menu of your favorite Python IDE change the interpreter to the
 >   - ```http://localhost:8999/```
 > - You can run the individual cells to review the task
 > - Please be sure you have the test data copied into the ```data``` folder.
-
-### AWS Geospatial Method
-
-> - The container created for this task has been uploaded to AWS Geospatial solutions in order to give remote access rather
-    than the local one.
-> - You can reach from the following address:
->   - ```http://ec2-18-117-109-195.us-east-2.compute.amazonaws.com/```
->   - ```http://18.117.109.195/```
-> - Similar to the previous Jupyter solutions you can run the individual cells to review the task
-

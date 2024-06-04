@@ -7,14 +7,9 @@ COPY ./requirements.txt /tmp/requirements.txt
 WORKDIR /app
 COPY ./apply_geospatial_task_notebook.ipynb /app/apply_geospatial_mask_notebook.ipynb
 COPY ./main.py /app/main.py
-COPY ./data/get_data.sh /app/get_data.sh 
-# copy data
-# COPY ./data/imageExample_Bands.tif /app/data/imageExample_Bands.tif
-# COPY ./data/imageExample_SCL.tif /app/data/imageExample_SCL.tif
-
+COPY ./data/CS_OFFL_SIR_TDP_LI_ANTARC_20200131T233342_20200131T233512_13_00205_B001.nc /app/data/CS_OFFL_SIR_TDP_LI_ANTARC_20200131T233342_20200131T233512_13_00205_B001.nc
 
 ARG DEV=false
-
 
 RUN apt-get update && \
     export CPLUS_INCLUDE_PATH=/usr/include/gdal && \
